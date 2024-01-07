@@ -218,3 +218,64 @@ body {
   padding: 10px 0px 30px 0px;
 }
 /* gorup image container style ends here */
+
+/* Subscribe section style starts here  */
+.subscribe-section {
+  margin-top: 120px;
+  border-radius: 16px;
+  background-color: rgba(255, 0, 0, 0.05);
+  text-align: center;
+}
+.subscribe-image {
+  width: 150px;
+  height: 150px;
+  margin-top: 80px;
+}
+.subscribe-title {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 40px 0px 20px 0px;
+}
+.subscribe-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  padding: 0 210px;
+  margin-bottom: 40px;
+}
+.subscribe-section input[type='email'] {
+  width: 500px;
+  height: 50px;
+  margin-right: 0px;
+  outline: none;
+  display: inline;
+  border: 0px;
+  margin: 0px;
+}
+.subscribe-section input[type='email']::placeholder{
+  padding: 20px;
+}
+.subscribe-btn {
+  display: inline;
+  border: 0;
+  margin: 0px;
+  width: 138px;
+  height: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: #f00;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: 0px;
+  margin-bottom: 60px;
+}
+
+/* Subscribe section style ends here  */
