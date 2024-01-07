@@ -185,6 +185,7 @@ body {
 .coming-soon-image {
   border: 15px solid #f00;
   border-radius: 100%;
+  padding: 49px;
   width: 100%;
 }
 .coming-soon-div {
