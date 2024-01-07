@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1600px;
+  font-family: 'Inter', sans-serif;
+  /* font-family: 'Merriweather', serif; */
+}
+.main-section {
+  max-width: 1320px;
+  display: block;
+  margin: 50px auto;
+}
+
+.banner-section {
+  background-image: url(../images/Banner\ Image.png);
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+}
+.banner-greeting {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 177px;
+}
+.banner-title {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 95px;
+  width: 632px;
+  margin: 0 auto;
+}
+
+/* New year secion style starts here */
+.new-year-section {
+  margin: 0 auto;
+  justify-content: center;
+}
+.new-year-offer {
+  color: #f00;
+  text-align: center;
+  font-size: 88px;
+  font-weight: 700;
+  padding-top: 120px;
+}
+.new-year-greeting {
+  color: #f00;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 48px 16px 0 0;
+}
+/* New year secion style ends here */
