@@ -55,6 +55,23 @@ body {
   text-align: center;
   font-size: 24px;
   font-weight: 500;
-  padding: 48px 16px 0 0;
+  padding-top: 48px;
+}
+.new-year-categories {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+.new-year-section img {
+  width: 800px;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
 }
 /* New year secion style ends here */
+
+/* party section starts here */
+/* party section ends here */
