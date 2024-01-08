@@ -267,6 +267,15 @@ body {
   line-height: 32px;
   padding: 10px 0px 30px 0px;
 }
+.group-image-container img {
+  padding: 20px;
+  width: 424px;
+  height: 450px;
+}
+.group-image-container img:hover {
+  transform: scale(1.03);
+  transition: 500ms ease-in-out;
+}
 /* gorup image container style ends here */
 
 /* Subscribe section style starts here  */
