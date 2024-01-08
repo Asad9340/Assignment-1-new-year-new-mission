@@ -158,10 +158,11 @@ body {
 .coming-soon {
   display: flex;
   margin-top: 120px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .coming-soon-offer {
   color: #f00;
+  margin-top: 100px;
   text-align: left;
   font-size: 24px;
   font-weight: 500;
@@ -177,30 +178,28 @@ body {
 }
 .coming-soon-description {
   color: rgba(7, 2, 17, 0.6);
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 24px;
   line-height: 32px;
   width: 390px;
-  margin-right: 60px;
+  margin-right: 70px;
 }
 .coming-soon-image {
   border: 15px solid #f00;
   border-radius: 100%;
   padding: 49px;
-  width: 100%;
 }
 .coming-soon-div {
   margin-left: 120px;
 }
 .coming-soon-year {
   color: #f00;
+  margin-top: 110px;
   font-size: 48px;
   font-weight: 700;
 }
 .coming-soon-greeting {
   color: rgba(7, 2, 17, 0.6);
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 20px;
   line-height: 32px;
 }
 .coming-soon-image2 {
@@ -217,7 +216,7 @@ body {
 .holiday-title {
   color: #070211;
   font-family: 'Merriweather', serif;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 500;
 }
 .holiday-offer {
@@ -235,7 +234,7 @@ body {
 .holiday-paragraph {
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 500;
   line-height: 32px;
   padding-bottom: 20px;
@@ -250,7 +249,7 @@ body {
 .group-image-heading {
   color: #f00;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 700;
   padding-bottom: 15px;
 }
 .group-image-title {
@@ -305,7 +304,6 @@ body {
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
   font-size: 20px;
-  font-weight: 400;
   line-height: 32px;
   padding: 0 210px;
   margin-bottom: 40px;
@@ -324,13 +322,19 @@ body {
 }
 .subscribe-section input[type='email']::placeholder {
   padding: 20px;
+  color: rgba(7, 2, 17, 0.30);
+}
+.subscribe-section input[type='email']:hover{
+  transform: scale(1.02);
+  transition: 200ms ease-in-out;
+  cursor: pointer;
 }
 .subscribe-btn {
   display: inline;
-  border: 0;
+  border: 0px;
   margin: 0px;
   width: 138px;
-  height: 50px;
+  height: 48px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   background-color: #f00;
@@ -339,7 +343,6 @@ body {
   font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
-  border: 0px;
   margin-bottom: 60px;
 }
 
@@ -375,7 +378,7 @@ footer {
   line-height: 40px;
 }
 hr {
-  color: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 .footer-social-media {
   display: flex;
