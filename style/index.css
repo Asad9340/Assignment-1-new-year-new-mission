@@ -15,7 +15,7 @@ body {
 }
 
 .banner-section {
-  background-image: url(../images/Banner\ Image.png);
+  background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Banner\ Image.png);
   background-repeat: no-repeat;
   width: 1320px;
   height: 600px;
