@@ -14,7 +14,8 @@ body {
   margin: 50px auto;
 }
 .banner-section {
-  background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Banner\ Image.png);
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../images/Banner\ Image.png);
   background-repeat: no-repeat;
   width: 1320px;
   height: 600px;
@@ -77,7 +78,8 @@ body {
 .party-container {
   margin-top: 120px;
   display: flex;
-  background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url(../images/Vectorrr.png);
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../images/Vectorrr.png);
   background-repeat: no-repeat;
   max-height: 600px;
   border-radius: 16px;
@@ -263,7 +265,7 @@ body {
   line-height: 32px;
   padding: 10px 0px 48px 0px;
 }
-.group-image{
+.group-image {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 24px;
@@ -398,6 +400,9 @@ hr {
   height: 20px;
   width: 20px;
   margin-right: 10px;
+}
+.contact-container {
+  margin-right: 130px;
 }
 /* footer section style ends here */
 
