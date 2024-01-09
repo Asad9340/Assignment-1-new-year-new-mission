@@ -13,7 +13,6 @@ body {
   display: block;
   margin: 50px auto;
 }
-
 .banner-section {
   background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Banner\ Image.png);
   background-repeat: no-repeat;
@@ -25,7 +24,6 @@ body {
   color: #fff;
   text-align: center;
   font-size: 32px;
-  font-weight: 400;
   padding-top: 177px;
 }
 .banner-title {
@@ -33,7 +31,7 @@ body {
   font-family: 'Merriweather', serif;
   text-align: center;
   font-size: 72px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 95px;
   width: 632px;
   margin: 0 auto;
@@ -66,7 +64,7 @@ body {
   margin-top: 16px;
 }
 .new-year-section img {
-  width: 800px;
+  width: 802.9px;
   height: 500px;
   display: block;
   margin: 0 auto;
@@ -79,8 +77,10 @@ body {
 .party-container {
   margin-top: 120px;
   display: flex;
-  background-image: url(../images/Vectorrr.png);
+  background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url(../images/Vectorrr.png);
   background-repeat: no-repeat;
+  max-height: 600px;
+  border-radius: 16px;
 }
 .jhamela img {
   display: block;
@@ -91,20 +91,19 @@ body {
   color: #fff;
   font-family: 'Merriweather', serif;
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 88px;
-  letter-spacing: 7px;
+  letter-spacing: 7.04px;
   padding-top: 126px;
   padding-left: 126px;
-  width: 640px;
+  width: 642px;
 }
 .party-description {
   color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
-  font-weight: 400;
   line-height: 30px;
   width: 700px;
-  padding: 25px 0px 0px 126px;
+  padding: 24px 0px 0px 126px;
 }
 .party-button {
   color: #fff;
@@ -112,11 +111,11 @@ body {
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
-  background-color: #ffad01;
-  padding: 10px 20px;
+  background-color: #885f05;
+  padding: 15px 20px;
   border-radius: 10px;
   border: 0px;
-  margin: 48px 0px 140px 158px;
+  margin: 48px 0px 142px 158px;
 }
 /* party section ends here */
 
@@ -135,7 +134,7 @@ body {
 }
 .location-description {
   color: #070211;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 600;
   line-height: 56px;
   text-transform: capitalize;
@@ -162,7 +161,7 @@ body {
 }
 .coming-soon-offer {
   color: #f00;
-  margin-top: 100px;
+  margin-top: 104px;
   text-align: left;
   font-size: 24px;
   font-weight: 500;
@@ -172,13 +171,13 @@ body {
   color: #070211;
   font-family: 'Merriweather', serif;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 900;
   text-transform: capitalize;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 .coming-soon-description {
   color: rgba(7, 2, 17, 0.6);
-  font-size: 24px;
+  font-size: 20px;
   line-height: 32px;
   width: 390px;
   margin-right: 70px;
@@ -189,7 +188,7 @@ body {
   padding: 49px;
 }
 .coming-soon-div {
-  margin-left: 120px;
+  margin-left: 118px;
 }
 .coming-soon-year {
   color: #f00;
@@ -203,8 +202,8 @@ body {
   line-height: 32px;
 }
 .coming-soon-image2 {
-  width: 130px;
-  height: 130px;
+  width: 140px;
+  height: 140px;
 }
 /*Coming soon style ends here */
 
@@ -224,7 +223,7 @@ body {
   font-family: 'Merriweather', serif;
   font-size: 72px;
   font-weight: 900;
-  padding: 10px 0px;
+  padding: 16px 0px 28px 0px;
 }
 .holiday-special {
   color: #f00;
@@ -234,10 +233,9 @@ body {
 .holiday-paragraph {
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 32px;
-  padding-bottom: 20px;
 }
 
 /*Holiday special offer style  ends here  */
@@ -249,33 +247,31 @@ body {
 .group-image-heading {
   color: #f00;
   font-size: 24px;
-  font-weight: 700;
-  padding-bottom: 15px;
+  font-weight: 500;
 }
 .group-image-title {
   color: #070211;
   font-family: 'Merriweather', serif;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 900;
   text-transform: capitalize;
-  padding-top: 20px;
+  padding-top: 16px;
 }
 .group-image-description {
   color: rgba(7, 2, 17, 0.6);
   font-size: 20px;
-  font-weight: 400;
   line-height: 32px;
-  padding: 10px 0px 30px 0px;
+  padding: 10px 0px 48px 0px;
 }
 .group-image{
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 20px;
+  gap: 24px;
 }
 .group-image-container img:hover {
   transform: scale(1.03);
   border-radius: 15px;
-  transition: 500ms ease-in-out;
+  transition: 300ms ease-in-out;
   box-shadow: 5px 5px 5px 5px rgb(97, 68, 68);
 }
 /* gorup image container style ends here */
@@ -297,9 +293,9 @@ body {
   font-family: 'Merriweather', serif;
   text-align: center;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 900;
   text-transform: capitalize;
-  margin: 40px 0px 20px 0px;
+  margin: 40px 0px 22px 0px;
 }
 .subscribe-description {
   color: rgba(7, 2, 17, 0.6);
@@ -357,6 +353,7 @@ footer {
   max-width: 1320px;
   display: block;
   margin: 120px auto;
+  margin-bottom: 0px;
 }
 .footer-container {
   display: flex;
@@ -365,10 +362,10 @@ footer {
 }
 .footer-location {
   color: #fff;
-  font-size: 15px;
+  font-size: 24px;
   font-weight: 500;
   line-height: 40px;
-  width: 350px;
+  width: 380px;
   height: 60px;
   margin-bottom: 50px;
 }
@@ -385,7 +382,7 @@ hr {
   display: flex;
   justify-content: center;
   margin: 30px 0;
-  gap: 20px;
+  gap: 16px;
 }
 .copyright {
   display: flex;
